@@ -7,7 +7,7 @@ from log import log_result, init_csv   # uses log.py
 # ==========================
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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"  # ⬅️ paste your OpenRouter API key here
+    api_key="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  # ⬅️ paste your OpenRouter API key here
 )
 
 # ✅ Only free models
