@@ -1,0 +1,17 @@
+timestamp,model_id,task,temperature,seed,prompt_chars,completion_chars,latency_ms,est_cost_usd,passed,notes
+2025-08-29T09:41:27.811069,moonshotai/kimi-k2:free,temp_sweep,0.0,,44,209,6672.88,0.0,True,word_count=33
+2025-08-29T09:41:31.202310,moonshotai/kimi-k2:free,temp_sweep,0.7,,44,199,3390.56,0.0,False,word_count=29
+2025-08-29T09:41:34.777940,moonshotai/kimi-k2:free,temp_sweep,1.3,,44,219,3575.14,0.0,True,word_count=30
+2025-08-29T09:41:39.264786,moonshotai/kimi-k2:free,strict_json,0.7,,147,251,4486.36,0.0,True,
+2025-08-29T09:41:44.964091,moonshotai/kimi-k2:free,quote_only_qa,0.7,,990,186,5698.78,0.0,True,
+2025-08-29T09:41:49.036380,moonshotai/kimi-k2:free,translation_back,0.7,,153,212,4071.74,0.0,True,
+2025-08-29T09:41:51.989750,moonshotai/kimi-k2:free,seed_stability,0.7,42,57,166,2952.83,0.0,False,Outputs differ → seed ignored?
+2025-08-29T09:42:04.618736,moonshotai/kimi-k2:free,style_control,0.7,,115,172,4190.68,0.0,True,
+2025-08-29T09:42:11.931555,openai/gpt-oss-20b:free,temp_sweep,0.0,,44,1130,7312.26,0.0,False,word_count=144
+2025-08-29T09:42:16.902164,openai/gpt-oss-20b:free,temp_sweep,0.7,,44,1054,4970.05,0.0,False,word_count=133
+2025-08-29T09:42:19.313960,openai/gpt-oss-20b:free,temp_sweep,1.3,,44,318,2411.45,0.0,False,word_count=46
+2025-08-29T09:42:21.682856,openai/gpt-oss-20b:free,strict_json,0.7,,147,547,2368.32,0.0,False,JSON error: Expecting value: line 1 column 1 (char 0)
+2025-08-29T09:42:26.288135,openai/gpt-oss-20b:free,quote_only_qa,0.7,,990,1182,4604.56,0.0,True,
+2025-08-29T09:42:30.980999,openai/gpt-oss-20b:free,translation_back,0.7,,0,0,0,0.0,False,"Has Hindi=False, KeepsName=False"
+2025-08-29T09:42:33.872696,openai/gpt-oss-20b:free,seed_stability,0.7,42,0,0,0,0.0,False,Outputs differ → seed ignored?
+2025-08-29T09:42:46.484401,openai/gpt-oss-20b:free,style_control,0.7,,115,765,5988.98,0.0,False,Sentence count=15
